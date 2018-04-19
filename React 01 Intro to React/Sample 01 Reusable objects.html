@@ -10,10 +10,15 @@
   <body>
     <div id="myDiv"></div>
     <script type="text/babel">
+      
+      const Greet = ({name}) => (
+        <div>Hello {name}</div> 
+      )
 
-      const Greet = <h1>Hello!</h1>;
-      ReactDOM.render(Greet, document.getElementById('myDiv'));
-
+      ReactDOM.render(<div>
+        <Greet name="WWcode!"/>
+        <Greet name="React!"/>
+      </div>, document.getElementById('myDiv'));
     </script>
   </body>
 </html>
