@@ -30,6 +30,8 @@ Topic              | Slides          | Resource
 Create-React-App   | [R01: Intro to React](https://docs.google.com/presentation/d/1g5f2pA3n7TLCqkNVHvNtidu13-bWzil97EV6M8bDG2c/edit#slide=id.g3489b4a6e0_0_18)            | [Repository](https://github.com/facebook/create-react-app)
 States             | [R02: States](https://docs.google.com/presentation/d/1xqgtoMBnRSHv6Wlj6ISNzk4t0qUp6JZ42oWv5ZOzGcc/edit#slide=id.g3489b4a6e0_0_9)
 
+#### Sample Projects
+* [The Switch](https://github.com/ksmorano/the-switch) - Demonstrates updating states
 #### Resources
 * [ES6](http://exploringjs.com/es6/ch_overviews.html)
 * [React Documentation](https://reactjs.org/)
