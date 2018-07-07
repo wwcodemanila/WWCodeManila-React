@@ -16,7 +16,7 @@
 import React from "react";
 import PageContent from "components/Elements/PageContent";
 
-const ProfileCard = () => {
+const ProfileCard = ({ name, message }) => {
   return (
     <PageContent
       title="My Profile Card"
@@ -34,8 +34,8 @@ const ProfileCard = () => {
                 />
               </div>
               <div className="media-content">
-                <p className="title is-4">Barbara Batumbakal</p>
-                <p className="subtitle is-6">Member, Women Who Code Manila</p>
+                <p className="title is-4">{name}</p>
+                <p className="subtitle is-6">{message}</p>
               </div>
             </div>
           </div>

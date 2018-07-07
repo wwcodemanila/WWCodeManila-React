@@ -12,12 +12,14 @@
 
 import React, { Component } from "react";
 import PageContent from "components/Elements/PageContent";
+import ProfileFormResults from "components/Profile/ProfileFormResults";
 
 class ProfileForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: ""
+      name: "",
+      message: ""
     };
 
     /* If we don't bind the event handler method,
@@ -32,7 +34,10 @@ class ProfileForm extends Component {
    * We'll create a function handleChange
    */
   handleChange = event => {
-    this.setState({ value: event.target.value });
+    this.setState({
+      [event.target.name]: event.target.value,
+      [event.target.message]: event.target.value,
+    });
   };
 
   /* Modify the function handleSubmit to log the form results.
@@ -41,11 +46,13 @@ class ProfileForm extends Component {
    * maybe to the ProfileCard component? :)
    */
   handleSubmit = event => {
+    alert("Hi, " + this.state.name + "! Thank you for your message!")
     event.preventDefault();
   };
 
   render() {
-    console.log(this.state.value)
+    console.log(this.state.name)
+    console.log(this.state.message)
     return (
       <PageContent
         title="Form"
@@ -57,8 +64,20 @@ class ProfileForm extends Component {
               Name:
               <input
                 className="input"
+                name="name"
                 type="text"
-                value={this.state.value}
+                value={this.state.name}
+                onChange={this.handleChange}
+              />
+            </label>
+
+            <label className="label">
+              Message:
+              <input
+                className="input"
+                name="message"
+                type="text"
+                value={this.state.message}
                 onChange={this.handleChange}
               />
             </label>
@@ -67,6 +86,8 @@ class ProfileForm extends Component {
             </div>
           </div>
         </form>
+
+        <ProfileFormResults name={this.state.name} message={this.state.message} />
       </PageContent>
     );
   }
