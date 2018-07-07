@@ -19,8 +19,8 @@ import PageContent from "components/Elements/PageContent";
 const ProfileCard = () => {
   return (
     <PageContent
-      title="My Profile Card"
-      description="Our first React component!"
+      title="Barbarocks"
+      description="Wizarding web dev and proud of it"
     >
       <div className="columns is-centered">
         <div className="column is-narrow is-half">
