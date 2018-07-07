@@ -6,6 +6,7 @@ const ProjectsList = () => (
   <React.Fragment>
     <section className="container">
       <h3 className="title has-text-centered">Projects</h3>
+      <div className="has-text-centered">dibidibidibidibidibidi...</div>
       <div className="box-container">
         {projects.map((project, index) => (
           <ProjectCard

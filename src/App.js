@@ -15,6 +15,7 @@ import Home from "components/Home/Home";
 import Navbar from "components/Elements/Navbar/Navbar";
 import ProfileCard from "components/Profile/ProfileCard";
 import ProfileForm from "components/Profile/ProfileForm";
+import HangerCard from "components/Hanger/HangerCard";
 class App extends Component {
   render() {
     return (
@@ -25,6 +26,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/profile-card" component={ProfileCard} />
             <Route exact path="/profile-form" component={ProfileForm} />
+            <Route exact path="/hanger-card" component={HangerCard} />
           </Switch>
         </div>
       </BrowserRouter>

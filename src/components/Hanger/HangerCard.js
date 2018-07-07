@@ -16,11 +16,11 @@
 import React from "react";
 import PageContent from "components/Elements/PageContent";
 
-const ProfileCard = ({meow}) => {
+const HangerCard = () => {
 
   return (
     <PageContent
-      title="My Profile Card"
+      title="Hanger's Card"
       description="Our first React component!"
     >
       <div className="columns is-centered">
@@ -32,7 +32,6 @@ const ProfileCard = ({meow}) => {
                   className="image is-48x48"
                   src={require("assets/images/hanger.png")}
                   alt="headshot"
-                  onClick = {meow}
                 />
               </div>
               <div className="media-content">
@@ -47,4 +46,4 @@ const ProfileCard = ({meow}) => {
   );
 };
 
-export default ProfileCard;
+export default HangerCard;

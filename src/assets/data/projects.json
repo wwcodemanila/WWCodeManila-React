@@ -43,5 +43,14 @@
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/axios",
     "isHidden": true
+  },
+  {
+    "id": 6,
+    "project": "Hanger Card",
+    "topic": "create-react-app",
+    "description": "Meow-meow-meow!",
+    "imageUrl": "/static/media/hanger.1b3411c7.png",
+    "link": "/hanger-card",
+    "isHidden": false
   }
 ]

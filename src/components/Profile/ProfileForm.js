@@ -12,7 +12,7 @@
 
 import React, { Component } from "react";
 import PageContent from "components/Elements/PageContent";
-
+import ProfileCard from "./ProfileCard"
 class ProfileForm extends Component {
   constructor(props) {
     super(props);
@@ -42,7 +42,13 @@ class ProfileForm extends Component {
    */
   handleSubmit = event => {
     event.preventDefault();
+    console.log(event.target);
+    console.log(this);
   };
+  
+  meow = () => {
+    alert("meow")
+  }
 
   render() {
     return (
@@ -66,6 +72,7 @@ class ProfileForm extends Component {
             </div>
           </div>
         </form>
+        <ProfileCard meow={this.meow}/>
       </PageContent>
     );
   }
