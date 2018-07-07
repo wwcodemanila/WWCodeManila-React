@@ -19,6 +19,10 @@ class ProfileForm extends Component {
     this.state = {
       value: ""
     };
+
+    /* If we don't bind the event handler method,
+     * we'll get an error: "this" is undefined.
+     */
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
