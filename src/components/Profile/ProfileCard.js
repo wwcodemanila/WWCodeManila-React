@@ -24,21 +24,18 @@ const ProfileCard = () => {
     >
       <div className="columns is-centered">
         <div className="column is-narrow is-half">
-          <div className="card">
-            <div className="card-content">
-              <div className="media">
-                <div className="media-left">
-                  <figure className="image is-48x48">
-                    <img
-                      src={require("assets/images/headshot.jpg")}
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div className="media-content">
-                  <p className="title is-4">Barbara Batumbakal</p>
-                  <p className="subtitle is-6">Member, Women Who Code Manila</p>
-                </div>
+          <div className="card card-content">
+            <div className="media">
+              <div className="media-left">
+                <img
+                  className="image is-48x48"
+                  src={require("assets/images/headshot.jpg")}
+                  alt="headshot"
+                />
+              </div>
+              <div className="media-content">
+                <p className="title is-4">Barbara Batumbakal</p>
+                <p className="subtitle is-6">Member, Women Who Code Manila</p>
               </div>
             </div>
           </div>

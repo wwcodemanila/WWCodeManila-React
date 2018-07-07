@@ -8444,7 +8444,7 @@ label.panel-block:hover {
 .box {
   margin: 15px;
   width: 600px;
-  height: 200px;
+  height: 100%;
 }
 
 @-webkit-keyframes spin {

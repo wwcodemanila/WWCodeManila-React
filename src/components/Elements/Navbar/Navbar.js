@@ -1,6 +1,6 @@
 import React from "react";
-import NavbarMenu from "./NavbarMenu";
-import NavbarBrand from "./NavbarBrand";
+import NavbarMenu from "components/Elements/Navbar/NavbarMenu";
+import NavbarBrand from "components/Elements/Navbar/NavbarBrand";
 
 const menuList = [
   {

@@ -1,6 +1,6 @@
 import React from "react";
 import projects from "assets/data/projects.json";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "components/Home/ProjectCard";
 
 const ProjectsList = () => (
   <React.Fragment>
