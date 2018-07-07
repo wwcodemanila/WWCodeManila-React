@@ -31,17 +31,18 @@ class ProfileForm extends Component {
    * you'll need to handle changes. 
    * We'll create a function handleChange
    */
-  handleChange(event) {
+  handleChange = event => {
     this.setState({ value: event.target.value });
-  }
+  };
 
   /* Modify the function handleSubmit to log the form results.
+   * 
    * You may also display the results in another component,
    * maybe to the ProfileCard component? :)
    */
-  handleSubmit(event) {
+  handleSubmit = event => {
     event.preventDefault();
-  }
+  };
 
   render() {
     return (

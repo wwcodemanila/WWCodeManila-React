@@ -13,8 +13,8 @@ import React, { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Elements/Navbar/Navbar";
-import ProfileCard from "./components/ProfileCard/ProfileCard";
-import ProfileForm from "./components/ProfileForm/ProfileForm";
+import ProfileCard from "./components/Profile/ProfileCard";
+import ProfileForm from "./components/Profile/ProfileForm";
 class App extends Component {
   render() {
     return (
