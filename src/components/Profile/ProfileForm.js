@@ -12,6 +12,7 @@
 
 import React, { Component } from "react";
 import PageContent from "components/Elements/PageContent";
+import Tabs from "components/Elements/Tabs";
 import ProfileFormResults from "components/Profile/ProfileFormResults";
 
 class ProfileForm extends Component {
@@ -19,7 +20,8 @@ class ProfileForm extends Component {
     super(props);
     this.state = {
       name: "",
-      message: ""
+      message: "",
+      status: ""
     };
 
     /* If we don't bind the event handler method,
@@ -50,6 +52,12 @@ class ProfileForm extends Component {
     event.preventDefault();
   };
 
+  isActive = () => {
+    this.setState( {
+      status: "is-active"
+    })
+  }
+
   render() {
     console.log(this.state.name)
     console.log(this.state.message)
@@ -58,6 +66,12 @@ class ProfileForm extends Component {
         title="Form"
         description="Let's handle forms in React. See the source code."
       >
+      <div className="tabs is-boxed">
+        <ul>
+          <Tabs label="Profile Form" status={this.state.status} onClick={() => this.isActive()} />
+          <Tabs label="Profile Form Results" status={this.state.status} onClick={() => this.isActive()} />
+        </ul>
+      </div>
         <form onSubmit={this.handleSubmit}>
           <div className="field">
             <label className="label">
