@@ -5,7 +5,8 @@
     "topic": "create-react-app",
     "description": "Create your first react project using the create-react-app",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
-    "link": "/profile-card"
+    "link": "/profile-card",
+    "isHidden": false
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "project": "Night Mode",
     "description": "Manage states of your components",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
-    "link": "/night-mode"
+    "link": "/night-mode",
+    "isHidden": true
   },
   {
     "id": 3,
@@ -21,15 +23,17 @@
     "topic": "Routes",
     "description": "Navigate through your app using routes",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
-    "link": "/routes"
+    "link": "/routes",
+    "isHidden": true
   },
   {
     "id": 4,
-    "project": "Sign Up Form",
+    "project": "Profile Form",
     "topic": "Forms",
     "description": "Handle forms with react",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
-    "link": "/sign-up"
+    "link": "/profile-form",
+    "isHidden": false
   },
   {
     "id": 5,
@@ -37,6 +41,7 @@
     "project": "Pokedex",
     "description": "Get data from API using axios",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
-    "link": "/axios"
+    "link": "/axios",
+    "isHidden": true
   }
 ]

@@ -18,7 +18,10 @@ import PageContent from "components/Elements/PageContent";
 
 const ProfileCard = () => {
   return (
-    <PageContent title="My Profile Card">
+    <PageContent
+      title="My Profile Card"
+      description="Our first React component!"
+    >
       <div className="card">
         <div className="card-content">
           <p className="title">Barbara Batumbakal</p>

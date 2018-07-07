@@ -15,6 +15,7 @@ const ProjectsList = () => (
             description={project.description}
             imageUrl={project.imageUrl}
             link={project.link}
+            isHidden={project.isHidden}
           />
         ))}
       </div>
