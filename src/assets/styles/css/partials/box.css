@@ -1,0 +1,15 @@
+.box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+}
+
+.box {
+  margin: 15px;
+  width: 600px;
+  height: 200px;
+}
+
+/*# sourceMappingURL=box.css.map */
