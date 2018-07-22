@@ -8,7 +8,7 @@ const PageContent = ({ title, description, children }) => (
         <p className="has-text-centered">{description}</p>
       </div>
     </section>
-    <section className="container">{children}</section>
+    <section className="container content">{children}</section>
   </React.Fragment>
 );
 

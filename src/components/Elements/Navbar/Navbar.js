@@ -8,8 +8,12 @@ const menuList = [
     link: "/"
   },
   {
-    menuLabel: "About",
+    menuLabel: "About React",
     link: "/about"
+  },
+  {
+    menuLabel: "References",
+    link: "/references"
   }
 ];
 
