@@ -8447,6 +8447,10 @@ label.panel-block:hover {
   height: 100%;
 }
 
+.weather-item {
+  margin-right: 30px;
+}
+
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);

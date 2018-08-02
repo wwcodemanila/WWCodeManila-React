@@ -6,7 +6,7 @@
     "description": "Create your first react project using the create-react-app",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/profile-card",
-    "isHidden": false
+    "isHidden": true
   },
   {
     "id": 2,
@@ -33,15 +33,15 @@
     "description": "Handle forms with react",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/profile-form",
-    "isHidden": false
+    "isHidden": true
   },
   {
     "id": 5,
     "topic": "Fetching Data",
-    "project": "Pokedex",
+    "project": "Weather Data",
     "description": "Get data from API using axios",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
-    "link": "/axios",
-    "isHidden": true
+    "link": "/weather",
+    "isHidden": false
   }
 ]
