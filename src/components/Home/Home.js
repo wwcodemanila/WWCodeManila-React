@@ -10,9 +10,10 @@ const Instructions = (
       </div>
       <div className="message-body">
         <p>
-          If it's your first time pulling this repository, please create a
-          branch from this repository by using the git command: <br />
-          <code>git checkout -b your-name-hacks</code>
+          If it's your first time pulling this repository, please fork from this
+          repository and then clone it to your local machine by using the git
+          command: <br />
+          <code>git clone git@github.com:username/WWCodeManila-React.git</code>
         </p>
         <br />
         <p>
