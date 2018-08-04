@@ -1,3 +1,12 @@
+/* 
+ * This component demonstrates how to get data from an API
+ * For this example, we used the four hour forecast of the 
+ * NOAH API: http://noah.up.edu.ph/apidocs/
+ * 
+ * We used the package axios to make requests
+ * Reference: https://github.com/axios/axios
+ */
+
 import React, { Component } from "react";
 import axios from "axios";
 
