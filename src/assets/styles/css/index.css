@@ -8451,6 +8451,10 @@ label.panel-block:hover {
   margin-right: 30px;
 }
 
+.tag {
+  cursor: pointer;
+}
+
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);

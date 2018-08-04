@@ -6,16 +6,16 @@
     "description": "Create your first react project using the create-react-app",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/profile-card",
-    "isHidden": true
+    "isHidden": false
   },
   {
     "id": 2,
     "topic": "States",
-    "project": "Night Mode",
+    "project": "Tags",
     "description": "Manage states of your components",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
-    "link": "/night-mode",
-    "isHidden": true
+    "link": "/profile-card",
+    "isHidden": false
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "description": "Navigate through your app using routes",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/routes",
-    "isHidden": true
+    "isHidden": false
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "description": "Handle forms with react",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/profile-form",
-    "isHidden": true
+    "isHidden": false
   },
   {
     "id": 5,

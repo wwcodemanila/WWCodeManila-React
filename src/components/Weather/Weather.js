@@ -30,7 +30,7 @@ class Weather extends Component {
   render() {
     const headers = ["Location", "Longitude", "Latitude", "Hourly Forecast"];
     return this.state.weatherData.length === 0 ? (
-      <h3 className="subtitle has-text-centered">Loading...</h3>
+      <h3 className="subtitle has-text-centered">Loading data...</h3>
     ) : (
       <PageContent
         title="Weather Forecast"

@@ -14,6 +14,7 @@
  */
 
 import React from "react";
+import Tag from "components/Profile/Tag";
 import PageContent from "components/Elements/PageContent";
 
 const ProfileCard = () => {
@@ -36,6 +37,7 @@ const ProfileCard = () => {
               <div className="media-content">
                 <p className="title is-4">Barbara Batumbakal</p>
                 <p className="subtitle is-6">Member, Women Who Code Manila</p>
+                <Tag />
               </div>
             </div>
           </div>
