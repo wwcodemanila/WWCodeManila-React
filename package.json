@@ -7,6 +7,7 @@
     "bulma": "^0.7.1",
     "concurrently": "^3.6.0",
     "react": "^16.4.1",
+    "react-code-prettify": "^0.0.1",
     "react-dom": "^16.4.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",

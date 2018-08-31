@@ -6,7 +6,7 @@
     "description": "Create your first react project using the create-react-app",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/profile-card",
-    "isHidden": false
+    "isHidden": true
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "description": "Manage states of your components",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/profile-card",
-    "isHidden": false
+    "isHidden": true
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "description": "Navigate through your app using routes",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/routes",
-    "isHidden": false
+    "isHidden": true
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "description": "Handle forms with react",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/profile-form",
-    "isHidden": false
+    "isHidden": true
   },
   {
     "id": 5,
@@ -42,6 +42,15 @@
     "description": "Get data from API using axios",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/weather",
+    "isHidden": false
+  },
+  {
+    "id": 5,
+    "topic": "Summary",
+    "project": "Chrome Extension",
+    "description": "Apply the topics from the first five activities",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
+    "link": "/chrome",
     "isHidden": false
   }
 ]

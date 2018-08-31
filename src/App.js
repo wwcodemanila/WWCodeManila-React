@@ -14,6 +14,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "components/Home/Home";
 import Navbar from "components/Elements/Navbar/Navbar";
 import About from "components/About/About";
+import Chrome from "components/Content/ChromeExtension/Chrome";
 import ProfileCard from "components/Profile/ProfileCard";
 import ProfileForm from "components/Profile/ProfileForm";
 import Weather from "components/Weather/Weather";
@@ -30,6 +31,7 @@ class App extends Component {
             <Route exact path="/profile-card" component={ProfileCard} />
             <Route exact path="/profile-form" component={ProfileForm} />
             <Route exact path="/weather" component={Weather} />
+            <Route exact path="/chrome" component={Chrome} />
           </Switch>
         </div>
       </BrowserRouter>
