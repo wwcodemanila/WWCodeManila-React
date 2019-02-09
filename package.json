@@ -6,6 +6,8 @@
     "axios": "^0.18.0",
     "bulma": "^0.7.1",
     "concurrently": "^3.6.0",
+    "docsify-cli": "^4.3.0",
+    "global": "^4.3.2",
     "react": "^16.4.1",
     "react-code-prettify": "^0.0.1",
     "react-dom": "^16.4.1",
