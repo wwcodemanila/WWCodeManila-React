@@ -14,8 +14,8 @@
  */
 
 import React from "react";
-import Tag from "components/Profile/Tag";
-import PageContent from "components/Elements/PageContent";
+import Tag from "./Tag";
+import PageContent from "Elements/PageContent";
 
 const ProfileCard = () => {
   return (

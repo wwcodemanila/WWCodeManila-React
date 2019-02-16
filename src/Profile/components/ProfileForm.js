@@ -1,17 +1,17 @@
-/* In this component, we'll handle forms. 
- * React handles forms quite differently. 
+/* In this component, we'll handle forms.
+ * React handles forms quite differently.
  * You'll need to handle the changes when you input something to the form.
- * 
+ *
  * Activity:
- * Modify this component to create your form. 
+ * Modify this component to create your form.
  * Add new fields, new form elements
  * Create a function that logs the form results.
- *  
- * Reference: https://reactjs.org/docs/forms.html 
+ *
+ * Reference: https://reactjs.org/docs/forms.html
  */
 
 import React, { Component } from "react";
-import PageContent from "components/Elements/PageContent";
+import PageContent from "Elements/PageContent";
 
 class ProfileForm extends Component {
   constructor(props) {
@@ -27,8 +27,8 @@ class ProfileForm extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  /* To be able to edit forms in React, 
-   * you'll need to handle changes. 
+  /* To be able to edit forms in React,
+   * you'll need to handle changes.
    * We'll create a function handleChange
    */
   handleChange = event => {
@@ -36,7 +36,7 @@ class ProfileForm extends Component {
   };
 
   /* Modify the function handleSubmit to log the form results.
-   * 
+   *
    * You may also display the results in another component,
    * maybe to the ProfileCard component? :)
    */

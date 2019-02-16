@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from "components/Home/Banner";
-import ProjectsList from "components/Home/ProjectsList";
+import Banner from "./Banner";
+import ProjectsList from "./ProjectsList";
 
 const Instructions = (
   <div className="container">

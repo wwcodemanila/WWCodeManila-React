@@ -1,8 +1,8 @@
 import React from "react";
 
-import PageContent from "components/Elements/PageContent";
-import ReactTools from "components/About/ReactTools";
-import Slides from "components/About/Slides";
+import PageContent from "Elements/PageContent";
+import ReactTools from "About/components/ReactTools";
+import Slides from "About/components/Slides";
 
 const whatIsReact = (
   <section className="container">
@@ -18,9 +18,11 @@ const whatIsReact = (
         </li>
         <li>React uses JSX which allows "writing HTML" with Javascript</li>
         <li>
-          VirtualDOM makes react faster (<a href="https://www.youtube.com/watch?v=BYbgopx44vo">
+          VirtualDOM makes react faster (
+          <a href="https://www.youtube.com/watch?v=BYbgopx44vo">
             watch "The Story of Virtual DOM"
-          </a>)
+          </a>
+          )
         </li>
       </ul>
     </p>

@@ -1,23 +1,22 @@
 /*
  * This component houses the routes of our app
  * Routes determine the component to show when a url is visited
- * 
- * Activity: 
+ *
+ * Activity:
  * Create an additional route that leads to another component.
- * 
+ *
  * When your done, create a branch on our repository and push your code. :)
- * 
+ *
  * Reference: https://reacttraining.com/react-router/core/guides/philosophy
  */
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "components/Home/Home";
-import Navbar from "components/Elements/Navbar/Navbar";
-import About from "components/About/About";
-import Chrome from "components/Content/ChromeExtension/Chrome";
-import ProfileCard from "components/Profile/ProfileCard";
-import ProfileForm from "components/Profile/ProfileForm";
-import Weather from "components/Weather/Weather";
+import Home from "Home/components/Home";
+import Navbar from "Elements/Navbar/Navbar";
+import About from "About/components/About";
+import ProfileCard from "Profile/components/ProfileCard";
+import ProfileForm from "Profile/components/ProfileForm";
+import Weather from "Weather/components/Weather";
 
 class App extends Component {
   render() {
@@ -31,7 +30,6 @@ class App extends Component {
             <Route exact path="/profile-card" component={ProfileCard} />
             <Route exact path="/profile-form" component={ProfileForm} />
             <Route exact path="/weather" component={Weather} />
-            <Route exact path="/chrome" component={Chrome} />
           </Switch>
         </div>
       </BrowserRouter>

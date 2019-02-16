@@ -1,8 +1,8 @@
-/* 
+/*
  * This component demonstrates how to get data from an API
- * For this example, we used the four hour forecast of the 
+ * For this example, we used the four hour forecast of the
  * NOAH API: http://noah.up.edu.ph/apidocs/
- * 
+ *
  * We used the package axios to make requests
  * Reference: https://github.com/axios/axios
  */
@@ -10,8 +10,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-import PageContent from "components/Elements/PageContent";
-import Table from "components/Weather/Table";
+import PageContent from "Elements/PageContent";
+import Table from "../components/Table";
 
 class Weather extends Component {
   constructor(props) {
