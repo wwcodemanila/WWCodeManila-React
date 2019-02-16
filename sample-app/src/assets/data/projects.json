@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "project": "Profile Card",
+    "topic": "create-react-app",
+    "description": "Create your first react project using the create-react-app",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
+    "link": "/profile-card",
+    "isHidden": false
+  },
+  {
+    "id": 2,
+    "topic": "States",
+    "project": "Tags",
+    "description": "Manage states of your components",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
+    "link": "/profile-card",
+    "isHidden": false
+  },
+  {
+    "id": 3,
+    "project": "My Porfolio Routes",
+    "topic": "Routes",
+    "description": "Navigate through your app using routes",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
+    "link": "/routes",
+    "isHidden": false
+  },
+  {
+    "id": 4,
+    "project": "Profile Form",
+    "topic": "Forms",
+    "description": "Handle forms with react",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
+    "link": "/profile-form",
+    "isHidden": false
+  },
+  {
+    "id": 5,
+    "topic": "Fetching Data",
+    "project": "Weather Data",
+    "description": "Get data from API using axios",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
+    "link": "/weather",
+    "isHidden": false
+  }
+]
