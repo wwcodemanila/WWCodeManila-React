@@ -12,16 +12,15 @@
 
   - [Overview](contents/overview.md)
   - [Create your portfolio website with CRA](contents/create_react_app.md)
-  - Basic Topics
+  - Innovate Topics
 
     - State management and lifecycle methods: Make a Like Counter
     - Routes: Create your Navbar
     - Forms: Contact Page
     - Displaying Data: Display Weather Data
 
-  - Advanced Topics
-    - Best Practices on Project Structure: Reusable Components, Presentational and Functional Components
-      <!-- - Project Structure: suggested, stateless + stateful -->
+  - Levelup Topics
+    - Component Structure: Reusable, Presentational and Functional Components
     - Redux: Store, Reducers, Actions
     - React <> Game Dev
     - Unit Testing: Jest, Enzyme
