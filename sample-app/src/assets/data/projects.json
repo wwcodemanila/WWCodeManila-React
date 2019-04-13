@@ -43,5 +43,14 @@
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
     "link": "/weather",
     "isHidden": false
+  },
+  {
+    "id": 6,
+    "topic": "Using Redux",
+    "project": "Products Page",
+    "description": "Updating states using Redux.",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/react.svg",
+    "link": "/products",
+    "isHidden": false
   }
 ]
