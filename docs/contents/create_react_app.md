@@ -1,6 +1,8 @@
 # Create-React-App
 
-The [create-react-app](https://github.com/facebook/create-react-app) allows you to build a React website with just one line of code.
+Setting up a react app can be overwhelming when doing it the first time. There's tons of setup to do before actually coding in React. The good thing about the maintainers of React, **Facebook**, is that they developed a boilerplate app that can get us to start with React without the painful setup.
+
+>The [create-react-app](https://github.com/facebook/create-react-app) allows you to build a React website with just one line of code.
 
 ## Build your portfolio with create-react-app
 
@@ -43,22 +45,22 @@ We now have our React website! Run it on your localhost:
 ![React Default Page](../_media/react_default_page.gif)
 
 ## What does each generated file do?
-| File         | Description                                 |
-| ------------ | ------------------------------------------- |
-| node_modules | where dependencies are installed            |
-| package.json | where dependencies and scripts are declared |
-| public       | where the `index.html` is placed            |
-| src          | where the development files are             |
+| File         | Description                                                          |
+| ------------ | -------------------------------------------------------------------- |
+| node_modules | where dependencies are installed                                     |
+| package.json | where dependencies and scripts are declared                          |
+| public       | where the `index.html` is placed                                     |
+| src          | where the development files are, contains the components of your app |
 
 ## Going through the flow of the project files
 The browser starts with the index.html file and reads the root div. The root div is the starting component. All component are rendered within the root div.
 
-`index.html` at about line 30
+`public/index.html` at about line 30
 ```html
 <div id="root"></div>
 ```
 
-`index.js` at about line 7 states that the component **_App_** should be rendered within the root component.
+`src/index.js` at about line 7 states that the component **_App_** should be rendered within the root component.
 ```javascript
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
@@ -93,7 +95,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
    export default App
    ```
-Preview your changes in the browser. Run `yarn start`.
+Preview your changes in the browser. Run `yarn start`. React reloads the browser when you make edits, you don't have to restart the service everytime. 
 
 The browser should display the header, `Hello Women Who Code Manila!`.
-Play around the App and Profile components and design the landing page for your portfolio.
+> Activity: Play around the App and Profile components and design the landing page for your portfolio.

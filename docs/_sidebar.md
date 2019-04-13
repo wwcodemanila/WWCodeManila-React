@@ -11,6 +11,7 @@
 - Contents
 
   - [Overview](contents/overview.md)
+  - [Understanding the React magic](contents/react_library.md)
   - [Create your portfolio website with CRA](contents/create_react_app.md)
   - Basic Topics
 

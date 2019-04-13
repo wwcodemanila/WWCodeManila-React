@@ -82,4 +82,4 @@ Components imported from another component looks very similar to an HTML tag. In
 
 Now that we know components and jsx, we can start building our first React-powered website. However, building React websites from scratch can be too tedious. It requires a lot of setup. Facebook has developed **_create-react-app_** that allows you to build your React website in just a few minutes.
 
-[Let's start building!](contents/create_react_app.md)
+[Understanding the React library](contents/react_library.md)
