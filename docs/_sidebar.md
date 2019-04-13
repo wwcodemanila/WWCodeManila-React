@@ -15,14 +15,14 @@
   - [Create your portfolio website with CRA](contents/create_react_app.md)
   - Basic Topics
 
-    - State management and lifecycle methods: Make a Like Counter
+    - [State management and lifecycle methods: Make a Like Counter](contents/basic/state_management.md)
     - Routes: Create your Navbar
     - Forms: Contact Page
     - Displaying Data: Display Weather Data
 
   - Advanced Topics
     - Best Practices on Project Structure: Reusable Components, Presentational and Functional Components
-      <!-- - Project Structure: suggested, stateless + stateful -->
+      - Project Structure: suggested, stateless + stateful
     - Redux: Store, Reducers, Actions
     - React <> Game Dev
     - Unit Testing: Jest, Enzyme

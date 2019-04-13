@@ -2,7 +2,7 @@
  * States are the values of dynamics parts of your render.
  * It should be initialized by using `this.state = {}`
  * It can be updated using the this.setState method
- * 
+ *
  * Reference: https://reactjs.org/docs/faq-state.html
  *
  */
@@ -21,7 +21,6 @@ class Tag extends Component {
     this.setState(previousState => {
       return { likes: previousState.likes + 1 };
     });
-    console.log(this.state.likes);
   };
 
   render() {

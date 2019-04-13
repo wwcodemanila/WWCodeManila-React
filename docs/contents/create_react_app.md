@@ -1,6 +1,6 @@
 # Create-React-App
 
-Setting up a react app can be overwhelming when doing it the first time. There's tons of setup to do before actually coding in React. The good thing about the maintainers of React, **Facebook**, is that they developed a boilerplate app that can get us to start with React without the painful setup.
+Setting up a React app can be overwhelming when doing it the first time. There's tons of setup to do before actually coding in React. The good thing about the maintainers of React, **Facebook**, is that they developed a boilerplate app that can get us to start with React without the painful setup.
 
 >The [create-react-app](https://github.com/facebook/create-react-app) allows you to build a React website with just one line of code.
 
@@ -68,8 +68,10 @@ ReactDOM.render(<App />, document.getElementById("root"));
 `App.js` is the parent component of all components in the project. Browser routes are usually managed in this file.
 
 ## Create your first component
-1. Create a `components` folder.
+1. Create a `components` folder inside `src`.
 2. Inside the `components` folder, create a file named `Profile.js`
+   <br>
+
    `Profile.js`
    ```javascript
    import React from 'react'
@@ -80,9 +82,12 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
    export default Profile
    ```
-3. Update `App.js` by importing your new component.
+3. Update `App.js` by importing your new component. 
+   <br>
+
    `App.js`
    ```javascript
+   import React, {Component} from 'react'
    import Profile from 'components/Profile'
 
    class App extends Component {
@@ -95,7 +100,32 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
    export default App
    ```
+
+The elements in the `render()` method are displayed on the browser. It should only return one `div`. If you wish to render more than one `div`, just enclose it in a parent div or `Fragment`.
+
+```javascript
+import React, {Component, Fragment} from 'react'
+import Component1 from './Component1'
+import Component2 from './Component2'
+import Component3 from './Component3'
+
+class App extends Component {
+    render {
+        return(
+            <Fragment>
+                <Component1/>
+                <Component2/>
+                <Component3/>
+            </Fragment>
+        )
+    }
+}
+
+```
+
+
 Preview your changes in the browser. Run `yarn start`. React reloads the browser when you make edits, you don't have to restart the service everytime. 
 
 The browser should display the header, `Hello Women Who Code Manila!`.
-> Activity: Play around the App and Profile components and design the landing page for your portfolio.
+
+> Activity: Play around the App and Profile components and design the landing page for your portfolio. You can create as many components as you want. 

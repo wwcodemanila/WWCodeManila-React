@@ -80,6 +80,14 @@ export default ChildComponent;
 
 Components imported from another component looks very similar to an HTML tag. In order to avoid the confusion, it is **_best practice to name your components in the PascalCase_**.
 
-Now that we know components and jsx, we can start building our first React-powered website. However, building React websites from scratch can be too tedious. It requires a lot of setup. Facebook has developed **_create-react-app_** that allows you to build your React website in just a few minutes.
+# Sample Project
+
+We created a sample project for you to get a feel of React. cd to the `sample-app`, install the dependencies and run the app.
+
+```sh
+cd sample-app
+yarn
+yarn start
+```
 
 [Understanding the React library](contents/react_library.md)
