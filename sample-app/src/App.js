@@ -18,7 +18,7 @@ import About from "./About/components/About";
 import ProfileCard from "./Profile/components/ProfileCard";
 import ProfileForm from "./Profile/components/ProfileForm";
 import Weather from "./Weather/components/Weather";
-import Products from "./Products/components/Products.jsx";
+import Products from "./Products/components/Products";
 
 class App extends Component {
   render() {
