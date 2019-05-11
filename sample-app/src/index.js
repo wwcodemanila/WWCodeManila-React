@@ -25,8 +25,8 @@ const store = createStore(
       }
     ],
     user: "guest"
-  },
-  window.devToolsExtension()
+  }
+  // window.devToolsExtension()
 );
 
 ReactDOM.render(
