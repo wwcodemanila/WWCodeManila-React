@@ -42,6 +42,7 @@ class ProfileForm extends Component {
    */
   handleSubmit = event => {
     event.preventDefault();
+    alert(this.state.value)
   };
 
   render() {
