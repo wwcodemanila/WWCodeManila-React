@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
 
 import PageContent from "../../Elements/components/PageContent";
 import User from "./User";
@@ -51,6 +52,12 @@ class ProductsPage extends Component {
       </PageContent>
     );
   }
+}
+
+ProductsPage.propTypes = {
+  value: PropTypes.string,
+  products: PropTypes.string,
+  user: PropTypes.string
 }
 
 const mapStateToProps = state => ({
