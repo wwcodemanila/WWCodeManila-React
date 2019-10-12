@@ -19,6 +19,8 @@ const Instructions = (
         <p>
           Feel free to share your code and push it to your branch in the
           repository. Happy hacking!
+
+          Yo! This Hacktober Fest is so cool! Gabszy Pogi Here!!!!! 
         </p>
       </div>
     </div>
