@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bulma": "^0.7.4",
+    "jest": "23.6.0",
     "node-sass": "^4.11.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
@@ -27,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0"
+  }
 }
